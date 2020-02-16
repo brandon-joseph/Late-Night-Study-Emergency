@@ -65,4 +65,3 @@ Maps API.
 
 ### Anything Else?
 The design is a bit different from the developed app because the design is a little complicated for a student in an introductory iOS class to code, however the design is how the app would ideally look under fewer time and skill level constraints. The link to the design has an available prototype. 
-# Late-Night-Study-Emergency

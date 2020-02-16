@@ -1,7 +1,6 @@
 # Late Night Emergency - Because when you gotta go, you gotta go
 Irena, Tyrone, Brandon
 
-Original Idea by Jasmine Herrera
 AppDev: iOS Development
 
 ## Important links:
@@ -37,15 +36,6 @@ Can Alternate Floors, click the bottom buttons to choose what floor's floorplan 
 
 This app is used to find bathrooms at Cornell. When you first launch the app you're presented with a map that has many markers. These markers each correspond to a building. If you click on the "Table" button on the top right, you'll be taken to a TableView that lists all bathrooms in order of proximity to you. If you click on an individual marker it'll display the name of the building. If you then click on the info window that says "Click me" you'll be taken to a page specifically for the building. This page will have the building name, a picture of a bathroom, the distance away it is from you, a rough description of where the bathroom is in the building, logistics such as the number of stalls and the overall condition of the bathroom and finally an overall rating using a 5.0 system. If you click on the "Floors" button in the top right you'll be presented with a floor plan. This floorplan has three buttons on the bottom that can choose between floor, each one showing you it's unique floor plan (Currently since there is no way to get floorplans it's just the same images for every building). 
 
-## How app meets list of requirements
-
-### IOS:
-    - Uses snapkit for Autolayout
-    - Has a TableView displaying list of bathrooms and distances from you
-    - Has tons of navigation, multiple ViewController
-    - Integrates backend API in NetworkManager.swift file but currently not in use.
-### Backend: 
-  -TODO
 
 ## Original Proposal
 Hacking Project Proposal
@@ -63,5 +53,3 @@ and the size. Also, there would be a UIImageView to allow the user to see whethe
 the right place. In order to implement a map on the main screen, I would need to use the Google
 Maps API.
 
-### Anything Else?
-The design is a bit different from the developed app because the design is a little complicated for a student in an introductory iOS class to code, however the design is how the app would ideally look under fewer time and skill level constraints. The link to the design has an available prototype. 

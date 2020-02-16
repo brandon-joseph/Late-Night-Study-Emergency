@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291ACBD02380B3F200CA8F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291ACBCF2380B3F200CA8F55 /* Assets.xcassets */; };
+		291ACBD32380B3F200CA8F55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291ACBD22380B3F200CA8F55 /* Preview Assets.xcassets */; };
+		291ACBD62380B3F200CA8F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291ACBD42380B3F200CA8F55 /* LaunchScreen.storyboard */; };
+		29361F3D239D93B300E9BB0A /* FloorPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29361F3C239D93B300E9BB0A /* FloorPlanViewController.swift */; };
+		29682BF02383B8FE0066FD76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ACBFB2380B56C00CA8F55 /* ViewController.swift */; };
+		29682BF12383B9020066FD76 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941AE822383AE150029E8E6 /* TableViewCell.swift */; };
+		29682BF22383B9050066FD76 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941AE842383B44C0029E8E6 /* TableViewController.swift */; };
+		29682BF32383B9160066FD76 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ACBFD2380BA2F00CA8F55 /* Building.swift */; };
+		29682BF42383B9180066FD76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ACBC92380B3ED00CA8F55 /* AppDelegate.swift */; };
+		29682BF62384A7080066FD76 /* Bathroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29682BF52384A7080066FD76 /* Bathroom.swift */; };
+		29682BF82384A9160066FD76 /* Vending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29682BF72384A9160066FD76 /* Vending.swift */; };
+		297EE330239C654800BC3DB4 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297EE32F239C654800BC3DB4 /* Review.swift */; };
+		297EE332239C66B200BC3DB4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297EE331239C66B200BC3DB4 /* NetworkManager.swift */; };
+		29D8B0192387309500282D61 /* BuildingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8B0182387309500282D61 /* BuildingPageViewController.swift */; };
+		4398999A7DE76FB50F1BBB21 /* Pods_hackchallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2777B1ACAA61EACB3B3D6077 /* Pods_hackchallenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		291ACBDD2380B3F200CA8F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 291ACBBE2380B3ED00CA8F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 291ACBC52380B3ED00CA8F55;
+			remoteInfo = hackchallenge;
+		};
+		291ACBE82380B3F200CA8F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 291ACBBE2380B3ED00CA8F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 291ACBC52380B3ED00CA8F55;
+			remoteInfo = hackchallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2777B1ACAA61EACB3B3D6077 /* Pods_hackchallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackchallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		291ACBC92380B3ED00CA8F55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		291ACBCF2380B3F200CA8F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		291ACBD22380B3F200CA8F55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		291ACBD52380B3F200CA8F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		291ACBD72380B3F200CA8F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291ACBFB2380B56C00CA8F55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		291ACBFD2380BA2F00CA8F55 /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		29361F3C239D93B300E9BB0A /* FloorPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorPlanViewController.swift; sourceTree = "<group>"; };
+		293979982380BCC900D3F17C /* hackchallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackchallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		293AC1E4238387380038A99A /* hackchallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackchallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293AC1E5238387380038A99A /* hackchallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackchallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2941AE822383AE150029E8E6 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = "/Users/brandonjoseph/Documents/HW/CS 1998-601/HackChallenge/BathroomHackChallenge/IOS/hackchallenge/hackchallenge/TableViewCell.swift"; sourceTree = "<absolute>"; };
+		2941AE842383B44C0029E8E6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		29682BF52384A7080066FD76 /* Bathroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bathroom.swift; sourceTree = "<group>"; };
+		29682BF72384A9160066FD76 /* Vending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vending.swift; sourceTree = "<group>"; };
+		297EE32F239C654800BC3DB4 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		297EE331239C66B200BC3DB4 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		29D8B0182387309500282D61 /* BuildingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingPageViewController.swift; sourceTree = "<group>"; };
+		74BF5BFFE15156D63C45F871 /* Pods-hackchallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackchallenge.debug.xcconfig"; path = "Target Support Files/Pods-hackchallenge/Pods-hackchallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		A9CCED58419A5A66A09FA8A7 /* Pods-hackchallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackchallenge.release.xcconfig"; path = "Target Support Files/Pods-hackchallenge/Pods-hackchallenge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		291ACBC32380B3ED00CA8F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4398999A7DE76FB50F1BBB21 /* Pods_hackchallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291ACBD92380B3F200CA8F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291ACBE42380B3F200CA8F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09D86A9DFBF36932849D6406 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74BF5BFFE15156D63C45F871 /* Pods-hackchallenge.debug.xcconfig */,
+				A9CCED58419A5A66A09FA8A7 /* Pods-hackchallenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		291ACBBD2380B3ED00CA8F55 = {
+			isa = PBXGroup;
+			children = (
+				291ACBC82380B3ED00CA8F55 /* hackchallenge */,
+				09D86A9DFBF36932849D6406 /* Pods */,
+				DF5C5DD157CFFC100B6E1112 /* Frameworks */,
+				293979982380BCC900D3F17C /* hackchallenge.app */,
+				293AC1E4238387380038A99A /* hackchallengeTests.xctest */,
+				293AC1E5238387380038A99A /* hackchallengeUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		291ACBC82380B3ED00CA8F55 /* hackchallenge */ = {
+			isa = PBXGroup;
+			children = (
+				297EE334239D910200BC3DB4 /* Views */,
+				297EE335239D911300BC3DB4 /* Structs */,
+				297EE331239C66B200BC3DB4 /* NetworkManager.swift */,
+				291ACBC92380B3ED00CA8F55 /* AppDelegate.swift */,
+				291ACBCF2380B3F200CA8F55 /* Assets.xcassets */,
+				291ACBD42380B3F200CA8F55 /* LaunchScreen.storyboard */,
+				291ACBD72380B3F200CA8F55 /* Info.plist */,
+				291ACBD12380B3F200CA8F55 /* Preview Content */,
+			);
+			path = hackchallenge;
+			sourceTree = "<group>";
+		};
+		291ACBD12380B3F200CA8F55 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				291ACBD22380B3F200CA8F55 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		297EE334239D910200BC3DB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2941AE842383B44C0029E8E6 /* TableViewController.swift */,
+				291ACBFB2380B56C00CA8F55 /* ViewController.swift */,
+				29D8B0182387309500282D61 /* BuildingPageViewController.swift */,
+				29361F3C239D93B300E9BB0A /* FloorPlanViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		297EE335239D911300BC3DB4 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				2941AE822383AE150029E8E6 /* TableViewCell.swift */,
+				29682BF52384A7080066FD76 /* Bathroom.swift */,
+				297EE32F239C654800BC3DB4 /* Review.swift */,
+				291ACBFD2380BA2F00CA8F55 /* Building.swift */,
+				29682BF72384A9160066FD76 /* Vending.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		DF5C5DD157CFFC100B6E1112 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2777B1ACAA61EACB3B3D6077 /* Pods_hackchallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		291ACBC52380B3ED00CA8F55 /* hackchallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291ACBF02380B3F200CA8F55 /* Build configuration list for PBXNativeTarget "hackchallenge" */;
+			buildPhases = (
+				B7AFA5562C04BE6BCDC8F746 /* [CP] Check Pods Manifest.lock */,
+				291ACBC22380B3ED00CA8F55 /* Sources */,
+				291ACBC32380B3ED00CA8F55 /* Frameworks */,
+				291ACBC42380B3ED00CA8F55 /* Resources */,
+				3660F2D34A2EFD6298860C97 /* [CP] Embed Pods Frameworks */,
+				03778670BD6DE9BA8D4977FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hackchallenge;
+			productName = hackchallenge;
+			productReference = 293979982380BCC900D3F17C /* hackchallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		291ACBDB2380B3F200CA8F55 /* hackchallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291ACBF32380B3F200CA8F55 /* Build configuration list for PBXNativeTarget "hackchallengeTests" */;
+			buildPhases = (
+				291ACBD82380B3F200CA8F55 /* Sources */,
+				291ACBD92380B3F200CA8F55 /* Frameworks */,
+				291ACBDA2380B3F200CA8F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				291ACBDE2380B3F200CA8F55 /* PBXTargetDependency */,
+			);
+			name = hackchallengeTests;
+			productName = hackchallengeTests;
+			productReference = 293AC1E4238387380038A99A /* hackchallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		291ACBE62380B3F200CA8F55 /* hackchallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291ACBF62380B3F200CA8F55 /* Build configuration list for PBXNativeTarget "hackchallengeUITests" */;
+			buildPhases = (
+				291ACBE32380B3F200CA8F55 /* Sources */,
+				291ACBE42380B3F200CA8F55 /* Frameworks */,
+				291ACBE52380B3F200CA8F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				291ACBE92380B3F200CA8F55 /* PBXTargetDependency */,
+			);
+			name = hackchallengeUITests;
+			productName = hackchallengeUITests;
+			productReference = 293AC1E5238387380038A99A /* hackchallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		291ACBBE2380B3ED00CA8F55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Appdev;
+				TargetAttributes = {
+					291ACBC52380B3ED00CA8F55 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					291ACBDB2380B3F200CA8F55 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 291ACBC52380B3ED00CA8F55;
+					};
+					291ACBE62380B3F200CA8F55 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 291ACBC52380B3ED00CA8F55;
+					};
+				};
+			};
+			buildConfigurationList = 291ACBC12380B3ED00CA8F55 /* Build configuration list for PBXProject "hackchallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 291ACBBD2380B3ED00CA8F55;
+			productRefGroup = 291ACBBD2380B3ED00CA8F55;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				291ACBC52380B3ED00CA8F55 /* hackchallenge */,
+				291ACBDB2380B3F200CA8F55 /* hackchallengeTests */,
+				291ACBE62380B3F200CA8F55 /* hackchallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		291ACBC42380B3ED00CA8F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291ACBD62380B3F200CA8F55 /* LaunchScreen.storyboard in Resources */,
+				291ACBD32380B3F200CA8F55 /* Preview Assets.xcassets in Resources */,
+				291ACBD02380B3F200CA8F55 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291ACBDA2380B3F200CA8F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291ACBE52380B3F200CA8F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03778670BD6DE9BA8D4977FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackchallenge/Pods-hackchallenge-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackchallenge/Pods-hackchallenge-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hackchallenge/Pods-hackchallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3660F2D34A2EFD6298860C97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackchallenge/Pods-hackchallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackchallenge/Pods-hackchallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hackchallenge/Pods-hackchallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7AFA5562C04BE6BCDC8F746 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hackchallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		291ACBC22380B3ED00CA8F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29682BF02383B8FE0066FD76 /* ViewController.swift in Sources */,
+				29682BF32383B9160066FD76 /* Building.swift in Sources */,
+				297EE332239C66B200BC3DB4 /* NetworkManager.swift in Sources */,
+				297EE330239C654800BC3DB4 /* Review.swift in Sources */,
+				29D8B0192387309500282D61 /* BuildingPageViewController.swift in Sources */,
+				29682BF22383B9050066FD76 /* TableViewController.swift in Sources */,
+				29682BF62384A7080066FD76 /* Bathroom.swift in Sources */,
+				29361F3D239D93B300E9BB0A /* FloorPlanViewController.swift in Sources */,
+				29682BF42383B9180066FD76 /* AppDelegate.swift in Sources */,
+				29682BF82384A9160066FD76 /* Vending.swift in Sources */,
+				29682BF12383B9020066FD76 /* TableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291ACBD82380B3F200CA8F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291ACBE32380B3F200CA8F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		291ACBDE2380B3F200CA8F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 291ACBC52380B3ED00CA8F55 /* hackchallenge */;
+			targetProxy = 291ACBDD2380B3F200CA8F55 /* PBXContainerItemProxy */;
+		};
+		291ACBE92380B3F200CA8F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 291ACBC52380B3ED00CA8F55 /* hackchallenge */;
+			targetProxy = 291ACBE82380B3F200CA8F55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		291ACBD42380B3F200CA8F55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				291ACBD52380B3F200CA8F55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		291ACBEE2380B3F200CA8F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		291ACBEF2380B3F200CA8F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		291ACBF12380B3F200CA8F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BF5BFFE15156D63C45F871 /* Pods-hackchallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"hackchallenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = hackchallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.hackchallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		291ACBF22380B3F200CA8F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CCED58419A5A66A09FA8A7 /* Pods-hackchallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"hackchallenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = hackchallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.hackchallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		291ACBF42380B3F200CA8F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hackchallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.hackchallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackchallenge.app/hackchallenge";
+			};
+			name = Debug;
+		};
+		291ACBF52380B3F200CA8F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hackchallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.hackchallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackchallenge.app/hackchallenge";
+			};
+			name = Release;
+		};
+		291ACBF72380B3F200CA8F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hackchallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.hackchallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hackchallenge;
+			};
+			name = Debug;
+		};
+		291ACBF82380B3F200CA8F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hackchallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.hackchallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hackchallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291ACBC12380B3ED00CA8F55 /* Build configuration list for PBXProject "hackchallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291ACBEE2380B3F200CA8F55 /* Debug */,
+				291ACBEF2380B3F200CA8F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291ACBF02380B3F200CA8F55 /* Build configuration list for PBXNativeTarget "hackchallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291ACBF12380B3F200CA8F55 /* Debug */,
+				291ACBF22380B3F200CA8F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291ACBF32380B3F200CA8F55 /* Build configuration list for PBXNativeTarget "hackchallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291ACBF42380B3F200CA8F55 /* Debug */,
+				291ACBF52380B3F200CA8F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291ACBF62380B3F200CA8F55 /* Build configuration list for PBXNativeTarget "hackchallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291ACBF72380B3F200CA8F55 /* Debug */,
+				291ACBF82380B3F200CA8F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 291ACBBE2380B3ED00CA8F55 /* Project object */;
+}

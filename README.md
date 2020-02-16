@@ -11,27 +11,27 @@ Backend repo: https://github.coecis.cornell.edu/bjj43/BathroomHackChallenge/tree
 
 Main View, shows a map with many markers:  
 
-<img src="https://github.coecis.cornell.edu/bjj43/BathroomHackChallenge/blob/master/Screenshots/newmain.png?raw=true" width="200px" height="375px" />
+<img src="https://github.com/brandon-joseph/Late-Night-Study-Emergency/blob/master/Screenshots/newmain.png?raw=true" width="200px" height="375px" />
 
 Main View Table Click, if you click the "Table" button the top right you'll get a list of buildings and their proxmity to you:  
 
-<img src="https://github.coecis.cornell.edu/bjj43/BathroomHackChallenge/blob/master/Screenshots/newtableview.png?raw=true" width="200px" height="375px" />
+<img src="https://github.com/brandon-joseph/Late-Night-Study-Emergency/blob/master/Screenshots/newtableview.png?raw=true" width="200px" height="375px" />
 
 Marker Click, click on a marker for more information about the building:  
 
-<img src="https://github.coecis.cornell.edu/bjj43/BathroomHackChallenge/blob/master/Screenshots/newmain%20marker.png?raw=true" width="200px" height="375px" />
+<img src="https://github.com/brandon-joseph/Late-Night-Study-Emergency/blob/master/Screenshots/newmain%20marker.png?raw=true" width="200px" height="375px" />
 
 On Marker Click, bring up building page, click the info window to get to a page about the building with useful information:  
 
-<img src="https://github.coecis.cornell.edu/bjj43/BathroomHackChallenge/blob/master/Screenshots/onmarkerclick.png?raw=true" width="200px" height="375px" />
+<img src="https://github.com/brandon-joseph/Late-Night-Study-Emergency/blob/master/Screenshots/onmarkerclick.png?raw=true" width="200px" height="375px" />
 
 Click Floors button, click the floors button on the top right of the building page you see a floor plan of the building:  
 
-<img src="https://github.coecis.cornell.edu/bjj43/BathroomHackChallenge/blob/master/Screenshots/floor1.png?raw=true" width="200px" height="375px" />
+<img src="https://github.com/brandon-joseph/Late-Night-Study-Emergency/blob/master/Screenshots/floor1.png?raw=true" width="200px" height="375px" />
 
 Can Alternate Floors, click the bottom buttons to choose what floor's floorplan you want to see:  
 
-<img src="https://github.coecis.cornell.edu/bjj43/BathroomHackChallenge/blob/master/Screenshots/floor2.png?raw=true" width="200px" height="375px" />
+<img src="https://github.com/brandon-joseph/Late-Night-Study-Emergency/blob/master/Screenshots/floor2.png?raw=true" width="200px" height="375px" />
 
 ## Description
 
